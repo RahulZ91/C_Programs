@@ -1,0 +1,9 @@
+// Function to return the factorial for a number
+
+long fact_n(int n)
+{
+	if(n>1)
+	    return n*fact_n(n-1);
+	else
+	    return 1;
+}
